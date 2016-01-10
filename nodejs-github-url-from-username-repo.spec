@@ -1,12 +1,12 @@
 %define		pkg	github-url-from-username-repo
 Summary:	Create urls from github username/repo
 Name:		nodejs-%{pkg}
-Version:	0.1.0
+Version:	0.2.0
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
-# Source0-md5:	8a5bce0842ed0e0415bcdd637fc2f99a
+# Source0-md5:	0a5ca21ff9d2b9f1c16b4e1ee30a2569
 URL:		https://github.com/robertkowalski/github-url-from-username-repo
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
